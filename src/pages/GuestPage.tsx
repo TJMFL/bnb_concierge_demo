@@ -9,7 +9,7 @@ const GuestPage: React.FC<GuestPageProps> = () => {
   const { guestSlug } = useParams<{ guestSlug: string }>();
   
   const guestData = {
-    name: "Demo Guest",
+    name: "Guest",
     property: {
       name: "Luxury Beachfront Villa",
       address: "123 Ocean Drive, Malibu, CA - Unit A",
