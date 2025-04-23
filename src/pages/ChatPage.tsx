@@ -5,7 +5,7 @@ const ChatPage: React.FC = () => {
   return (
     <div className="h-screen flex flex-col bg-white">
       <ChatContainer 
-        guestName="Demo Guest"
+        guestName="Guest"
         propertyName="Luxury Beachfront Villa"
       />
     </div>
